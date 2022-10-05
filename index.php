@@ -1,7 +1,7 @@
 <?php
 
-$img_url = isset($_GET['url']) ? $_GET['url'] : null;
-
+// $img_url = isset($_GET['url']) ? $_GET['url'] : null;
+$img_url = "https://www.webuyanycar.com/wbacimages/5071_647_650_648_2003_2006.jpg";
 if($img_url !== null){
     $my_img_name = getimagename($img_url);
     $my_img_link = downloadimagefromurl($img_url,$my_img_name);
